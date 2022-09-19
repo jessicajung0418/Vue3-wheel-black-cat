@@ -1,0 +1,34 @@
+{
+  "name": "gulu-ui-1",
+  "version": "0.0.4",
+  "files": [
+    "dist/lib/*"
+  ],
+  "main": "dist/lib/gulu.js",
+  "module": "dist/lib/gulu.esm.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "resolutions": {
+    "node-sass": "npm:sass@latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "3.0.3",
+    "github-markdown-css": "4.0.0",
+    "marked": "1.1.1",
+    "prismjs": "1.21.0",
+    "rollup-plugin-esbuild": "4.9.3",
+    "rollup-plugin-scss": "3.0.0",
+    "rollup-plugin-terser": "7.0.2",
+    "sass": "1.26.10",
+    "svg-sprite-loader": "^6.0.11",
+    "vite": "3.0.9",
+    "vue": "3.2.37",
+    "vue-router": "4"
+  },
+  "peerDependencies": {
+    "github-markdown-css": "4.0.0",
+    "vue": "3.2.37"
+  }
+}
