@@ -1,6 +1,7 @@
 {
-  "name": "gulu-ui-1",
-  "version": "0.0.4",
+  "name": "bc-ui-1",
+  "version": "0.0.1",
+  "homepage": "https://jessicajung0418.github.io/Vue3-wheel-black-cat/",
   "files": [
     "dist/lib/*"
   ],
